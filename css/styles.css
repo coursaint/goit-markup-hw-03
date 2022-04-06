@@ -369,12 +369,15 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  padding-left: 24px;
+  padding-top: 20px;
 }
 
 .project-type {
   font-size: 16px;
   line-height: 1.888;
   letter-spacing: 0.03em;
-
+  padding-left: 24px;
+  padding-bottom: 20px;
   color: var(--four-color-gre);
 }
