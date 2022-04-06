@@ -38,7 +38,7 @@ img {
 }
 
 .list {
-  list-style: none
+  list-style: none;
 }
 
 .link {
@@ -61,7 +61,6 @@ img {
 .tophead {
   padding-top: 24px;
   padding-bottom: 25px;
-
 }
 
 .logo-web {
@@ -80,13 +79,10 @@ img {
   font-size: 26px;
   letter-spacing: 0.03em;
   text-decoration: none;
-
-
 }
 
 .navigation {
   display: flex;
-
 }
 
 .navigation-list {
@@ -121,13 +117,11 @@ img {
   letter-spacing: 0.02em;
   color: var(--four-color-gre);
   text-decoration: none;
-
 }
 
 .mail {
   margin-right: 50px;
   margin-left: auto;
-
 }
 
 .address-top:hover,
@@ -139,7 +133,7 @@ img {
   width: 1600px;
   height: 600px;
   background: #2f303a;
-  align-items: center
+  align-items: center;
 }
 
 .button-order {
@@ -167,7 +161,6 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
 .title-solution {
@@ -211,14 +204,13 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   padding: 10px;
-  margin-bottom: 50px
+  margin-bottom: 50px;
 }
 
 .about {
   display: flex;
   flex-direction: row;
   justify-content: center;
-
 }
 
 .about-item:not(:last-child) {
@@ -226,13 +218,12 @@ img {
 }
 
 .team {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .team-person {
   background-color: var(--third-color-whi);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 1px 1px rgba(0, 0, 0, 0.14),
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
@@ -279,7 +270,6 @@ img {
   letter-spacing: 0.03em;
   color: var(--third-color-whi);
   text-decoration: none;
-
 }
 
 .adress-mail,
@@ -295,7 +285,6 @@ img {
   letter-spacing: 0.03em;
   text-decoration: none;
   padding: 60px 215px 20px;
-
 }
 
 .bottom-adress-item {
@@ -304,8 +293,6 @@ img {
 
 .adress-bottom {
   padding-left: 215px;
-
-
 }
 
 .address-location:hover,
@@ -346,7 +333,6 @@ img {
   color: var(--third-color-whi);
 }
 
-
 .button-portfolio-item:not(:last-child) {
   margin-right: 8px;
 }
@@ -356,7 +342,7 @@ img {
 }
 
 .project-list-item {
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
   margin-bottom: 30px;
 }
 
