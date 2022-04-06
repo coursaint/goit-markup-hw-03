@@ -10,6 +10,7 @@
 body {
   font-family: var(--main-font);
   color: var(--main-color-bla);
+  width: 1600px;
 }
 
 h1,
@@ -47,10 +48,15 @@ img {
 .container {
   width: 1200px;
   display: flex;
+  justify-content: center;
   align-items: center;
+  margin: 0 auto;
+}
+
+.tophead {
   padding-top: 24px;
   padding-bottom: 25px;
-  margin: 0 auto;
+
 }
 
 .logo-web {
@@ -110,7 +116,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--four-color-gre);
   text-decoration: none;
-  display: flex;
 
 }
 
@@ -129,6 +134,7 @@ img {
   width: 1600px;
   height: 600px;
   background: #2f303a;
+  align-items: center
 }
 
 .button-order {
@@ -147,6 +153,7 @@ img {
   letter-spacing: 0.06em;
   color: var(--third-color-whi);
   cursor: pointer;
+  margin-top: 30px;
 
 }
 
@@ -196,6 +203,17 @@ img {
   line-height: 1.667;
   text-align: center;
   letter-spacing: 0.03em;
+  padding: 10px;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.about-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .person-name {
