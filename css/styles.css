@@ -219,6 +219,8 @@ img {
 
 .team {
   background-color: #f5f4fa;
+  width: 1600px;
+  margin: 0 auto;
 }
 
 .team-person {
