@@ -10,6 +10,7 @@
 body {
   font-family: var(--main-font);
   color: var(--main-color-bla);
+  margin: 0 auto;
 }
 
 h1,
