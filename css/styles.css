@@ -47,6 +47,7 @@ img {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .section {
@@ -128,7 +129,6 @@ img {
 }
 
 .top {
-  width: 1600px;
   height: 600px;
   background: #2f303a;
   align-items: center;
@@ -225,7 +225,6 @@ img {
 
 .team {
   background-color: #f5f4fa;
-  width: 1600px;
   margin: 0 auto;
 }
 
@@ -262,7 +261,7 @@ img {
 }
 
 .bottom {
-  width: 1600px;
+
   height: 252px;
   background: var(--main-color-bla);
   margin: 0 auto;
